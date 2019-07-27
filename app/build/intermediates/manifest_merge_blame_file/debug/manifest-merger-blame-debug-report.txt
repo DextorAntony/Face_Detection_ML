@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.facedetectionml"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:4:1-60
+11-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:4:18-58
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+12-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+13-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:6:5-20:19
+19        android:allowBackup="true"
+19-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:7:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] /home/dextor/.gradle/caches/transforms-2/files-2.1/c59716abe8e25cf2a1465d45bed5043c/core-1.0.1/AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:8:9-43
+24        android:label="@string/app_name"
+24-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:9:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:10:9-54
+26        android:supportsRtl="true"
+26-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:12:9-40
+29        <activity android:name="com.facedetectionml.MainActivity" >
+29-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:13:9-19:20
+29-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:13:19-47
+30            <intent-filter>
+30-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:14:13-18:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:15:17-69
+31-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:15:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:17:17-77
+33-->/home/dextor/Desktop/AndroidStudioProjects/FaceDetectionML/app/src/main/AndroidManifest.xml:17:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+38            android:name="com.google.firebase.components.ComponentDiscoveryService"
+38-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:28:13-84
+39            android:exported="false" >
+39-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+41                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+41-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+42                android:value="com.google.firebase.components.ComponentRegistrar" />
+42-->[com.google.android.gms:play-services-measurement-api:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/a806666c9822d8c78b469b3a658122a8/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+43            <meta-data
+43-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+44-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+46        </service>
+47
+48        <receiver
+48-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+49            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+49-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+50            android:exported="true"
+50-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+51            android:permission="com.google.android.c2dm.permission.SEND" >
+51-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+52            <intent-filter>
+52-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+53                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+53-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+53-->[com.google.firebase:firebase-iid:19.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/952adec01955d83e5b00b3df5cecb14e/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+54            </intent-filter>
+55        </receiver>
+56
+57        <activity
+57-->[com.google.android.gms:play-services-base:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/961ab0d27f059c60636ef3d501ab34dd/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+58-->[com.google.android.gms:play-services-base:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/961ab0d27f059c60636ef3d501ab34dd/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+59            android:exported="false"
+59-->[com.google.android.gms:play-services-base:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/961ab0d27f059c60636ef3d501ab34dd/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+60-->[com.google.android.gms:play-services-base:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/961ab0d27f059c60636ef3d501ab34dd/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+61
+62        <provider
+62-->[com.google.firebase:firebase-common:18.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/335f620f31243ca4ec90438137d499ee/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+63            android:name="com.google.firebase.provider.FirebaseInitProvider"
+63-->[com.google.firebase:firebase-common:18.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/335f620f31243ca4ec90438137d499ee/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+64            android:authorities="com.facedetectionml.firebaseinitprovider"
+64-->[com.google.firebase:firebase-common:18.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/335f620f31243ca4ec90438137d499ee/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:18.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/335f620f31243ca4ec90438137d499ee/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:18.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/335f620f31243ca4ec90438137d499ee/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+67
+68        <receiver
+68-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+69            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+69-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+70            android:enabled="true"
+70-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+71            android:exported="false" >
+71-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+72        </receiver>
+73        <receiver
+73-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+74            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+74-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+75            android:enabled="true"
+75-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+76            android:exported="true"
+76-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+77            android:permission="android.permission.INSTALL_PACKAGES" >
+77-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+78            <intent-filter>
+78-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+79                <action android:name="com.android.vending.INSTALL_REFERRER" />
+79-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+79-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+80            </intent-filter>
+81        </receiver>
+82
+83        <service
+83-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+84            android:name="com.google.android.gms.measurement.AppMeasurementService"
+84-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+85            android:enabled="true"
+85-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+86            android:exported="false" />
+86-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+87        <service
+87-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+88            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+88-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" />
+91-->[com.google.android.gms:play-services-measurement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/83305ddb6cc65721696e0b6f00ed78ec/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/006be425b7e55ffb0cb63284ab35444f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/006be425b7e55ffb0cb63284ab35444f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.0.0] /home/dextor/.gradle/caches/transforms-2/files-2.1/006be425b7e55ffb0cb63284ab35444f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>
